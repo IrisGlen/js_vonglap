@@ -24,7 +24,37 @@
     </header>
     <main>
       <!-- bai 1 -->
-
+      <div class="container">
+        <h2>B1: Tim so nguyen duong nho nhat sao cho 1+2+3...+n>10000</h2>
+        <div class="mb-3">
+          <button class="btn btn-primary" onclick="timSoNguyenDuongN()">
+            Tìm số N
+          </button>
+        </div>
+        <div class="mb-3">
+          <div class="bg-secondary text-white soNguyenDuong py-2 px-2"></div>
+        </div>
+      </div>
+      <!-- bai 2 -->
+      <div class="container">
+        <h2>B2: Nhap so x,n. Tính tổng luỹ thừa</h2>
+        <div class="mb-3">
+          <label for="nhapSoX" class="form-label">Nhập số x</label>
+          <input type="text" class="form-control" id="nhapSoX" />
+        </div>
+        <div class="mb-3">
+          <label for="nhapSoN" class="form-label">Nhập số n (số mũ)</label>
+          <input type="text" class="form-control" id="nhapSoN" />
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-primary" onclick="tinhTong()">
+            Tổng luỹ thừa
+          </button>
+        </div>
+        <div class="mb-3">
+          <div class="bg-success text-white tinhTong py-2 px-2"></div>
+        </div>
+      </div>
 
       <!-- bai 3 -->
       <div class="container">
@@ -40,6 +70,7 @@
           <div class="bg-danger text-white giaiThua py-2 px-2"></div>
         </div>
       </div>
+
       <!-- bai 4 -->
       <div class="container">
         <h2>B4: In 10 thẻ div</h2>
@@ -53,6 +84,20 @@
         </div>
       </div>
 
+       <!-- bai 5 -->
+       <div class="container">
+        <h2>B5: So nguyen to</h2>
+        <div class="mb-3">
+          <label for="giaiTriNhap" class="form-label">Nhập số n bất kỳ</label>
+          <input type="text" class="form-control" id="giaiTriNhap" />
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-danger" onclick="inSoNguyenTo()">In số nguyên tố</button>
+        </div>
+        <div class="mb-3">
+          <div class="bg-light inSoNguyenTO py-2 px-2"></div>
+        </div>
+      </div>
    
     </main>
     <footer>
